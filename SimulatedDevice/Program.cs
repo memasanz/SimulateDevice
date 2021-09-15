@@ -30,11 +30,11 @@ namespace SimulatedDevice
         private static DeviceClient s_deviceClient;
 
         private readonly static string s_myDeviceId = "device1";
-        private readonly static string s_iotHubUri = "iothub-vir.azure-devices.us";
+        private readonly static string s_iotHubUri = "iothub-vir-name-here.azure-devices.us";
         //This is the primary key for the device.This is in the portal. 
 
         //Find your IoT hub in the portal > IoT devices > select your device > copy the key.
-        private readonly static string s_deviceKey = "ghii3GUGQBVSBHc+LMeZvtkc4e6KUV9WPTFSbIMG3pg=";
+        private readonly static string s_deviceKey = "ghidevicekeyherei3GUGQBVSBHc+LMeZvtkc4e6KUV9WPTFSbIMG3pg=";
 
         // If this is false, it will submit messages to the iot hub. 
         // If this is true, it will read one of the output files and convert it to ASCII.
